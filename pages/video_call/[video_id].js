@@ -114,9 +114,9 @@ export default function VideoId() {
       <video autoPlay id="localVideo" muted ref={localVideo} />
       <video
         autoPlay
-        // style={
-        //   connecting || waiting ? { display: "none" } : { display: "block" }
-        // }
+        style={
+          connecting || waiting ? { display: "none" } : { display: "block" }
+        }
         id="remoteVideo"
         ref={remoteVideo}
       />
